@@ -1,7 +1,9 @@
 package main
 
-import "github.com/cyrilpanicker/golang-snippets/waitGroup"
+import (
+	"github.com/cyrilpanicker/golang-snippets/slices"
+)
 
 func main() {
-	waitGroup.Run()
+	slices.Run()
 }
